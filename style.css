@@ -8,6 +8,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+
 header {
     text-align: center;
     padding: 30px 20px;
@@ -17,7 +18,6 @@ header {
     border-bottom: 4px solid rgba(255,255,255,0.2);
 }
 
-/* header aesthetic changes*/
 header h1,
 header p {
     color: white;
@@ -33,8 +33,7 @@ header button:hover {
     background-color: #e6e6e6;
 }
 
-/* Change Dark mode button to here in header */
-
+/* Dark mode button in header */
 body.dark header button {
     background-color: #d8d8d8;
     color: #083B77;
@@ -43,8 +42,6 @@ body.dark header button {
 body.dark header button:hover {
     background-color: white;
 }
-
-
 /* fixed to format allat*/
 #profile-img {
     width: 150px;
@@ -54,8 +51,7 @@ body.dark header button:hover {
     border: 3px solid #ccc;
     margin: 10px 0;
 }
-
-/* for button test and theme */
+/* for button test and theme*/
 button {
     padding: 10px 20px;
     margin-top: 10px;
@@ -69,4 +65,31 @@ button {
 
 button:hover {
     background-color: #005fa3;
+}
+
+/* added design and formatted to pad kay lain kung sa side ra */
+section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
+}
+
+
+/* UL stuff for the lines and links UNTA MAKITAN NA PLEASE*/
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li a {
+    margin-left: 8px;
+    color: #0077cc;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }

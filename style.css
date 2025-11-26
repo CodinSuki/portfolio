@@ -34,6 +34,29 @@ header button:hover {
 }
 
 /* Dark mode button in header */
+
+body.dark {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+body.dark header {
+    background-color: #083B77;
+    border-bottom-color: rgba(255,255,255,0.15);
+}
+
+body.dark section {
+    background-color: #1e1e1e; 
+}
+
+body.dark button {
+    background-color: #1a73e8;
+}
+
+body.dark button:hover {
+    background-color: #155bb5;
+}
+
 body.dark header button {
     background-color: #d8d8d8;
     color: #083B77;
@@ -42,6 +65,7 @@ body.dark header button {
 body.dark header button:hover {
     background-color: white;
 }
+
 /* fixed to format allat*/
 #profile-img {
     width: 150px;

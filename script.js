@@ -5,5 +5,5 @@ toggleButton.addEventListener('click', () => {
 });
 const testbutton = document.getElementById('theme-test');
 toggleButton.addEventListener('click', () => {
-    body.classList.toggle('dark');
+    body.classList.toggle('test');
 });

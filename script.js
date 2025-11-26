@@ -5,5 +5,5 @@ toggleButton.addEventListener('click', () => {
 });
 const testbutton = document.getElementById('theme-test');
 toggleButton.addEventListener('click', () => {
-    body.classList.toggle('test');
+    window.alert("I don't have a formal photo sorry sir D:");
 });

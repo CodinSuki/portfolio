@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = slider.querySelector('.feature-container');
     const toggleButton = document.getElementById('theme-toggle');
     const testButton = document.getElementById('theme-test');
+    const themeIcon = document.getElementById('theme-icon');
 
     // CenterCarousel
     slider.scrollLeft = (container.scrollWidth - slider.clientWidth) / 2;
@@ -38,15 +39,17 @@ document.addEventListener('DOMContentLoaded', () => {
         slider.scrollLeft = scrollLeft - walk;
     });
 
-    // dark mode
+    
     toggleButton.addEventListener('click', () => {
         body.classList.toggle('dark');
-    });
 
-    /*     
-        testButton.addEventListener('click', () => {
-            window.alert("I don't have a formal photo sorry sir D:");
-        });
+        if (body.classList.contains('dark')) {
+            themeIcon.src = "images/DarkMode.png";
+            themeIcon.alt = "Dark Mode";
+        } else {
+            themeIcon.src = "images/LightMode.png";
+            themeIcon.alt = "Light Mode";
     }
-        */
+});
+
 });

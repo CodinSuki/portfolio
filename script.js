@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleButton = document.getElementById('theme-toggle');
     const testButton = document.getElementById('theme-test');
     const themeIcon = document.getElementById('theme-icon');
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
 
     // CenterCarousel
     slider.scrollLeft = (container.scrollWidth - slider.clientWidth) / 2;
@@ -49,7 +51,18 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             themeIcon.src = "images/LightMode.png";
             themeIcon.alt = "Light Mode";
-    }
-});
+        }
+    });
+
+    const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = 1;
+            entry.target.style.transform = 'translateY(0)';
+        }
+        });
+    }, { threshold: 0.2 });
+
+    timelineItems.forEach(item => observer.observe(item));
 
 });

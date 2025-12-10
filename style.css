@@ -410,11 +410,12 @@ ul {
 
 .feature-card.bg-1 { background-image: url('images/bg1.jpg'); }
 .feature-card.bg-2 { background-image: url('images/bg2.jpg'); }
-.feature-card.bg-3 { background-image: url('images/bg3.jpg'); }
-.feature-card.bg-4 { background-image: url('images/bg4.jpg'); }
-.feature-card.bg-5 { background-image: url('images/bg5.jpg'); }
-.feature-card.bg-6 { background-image: url('images/bg6.jpg'); }
+.feature-card.bg-3 { background-image: url('images/KendoAchievement1.jpg'); }
 .feature-card.feature-main { background-image: url('images/AboutMeBg.png'); }
+.feature-card.bg-4 { background-image: url('images/KendoImage.jpg'); }
+.feature-card.bg-5 { background-image: url('images/KendoNatonials.jpg'); }
+.feature-card.bg-6 { background-image: url('images/SteamPage.png'); }
+
 
 
 

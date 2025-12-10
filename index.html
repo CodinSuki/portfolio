@@ -4,7 +4,10 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Sky Margate – Portfolio</title>
+   <!-- seperate -->
    <link rel="stylesheet" href="style.css">
+   <link rel = "preconnect" href = "https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel = "stylesheet">
 </head>
 
 <body>
@@ -15,7 +18,7 @@
 
     <div class="nav-links">
         <ul>
-            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#AboutMe">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#greensense">GreenSense</a></li>
             <li><a href="#skills">Skills</a></li>  
@@ -26,29 +29,49 @@
 </nav>
 
 
-   <!-- HERO SECTION -->
    <header class="hero">
-      <div class="hero-content">
-         <h1>Sky Karol Isaac S. Margate</h1>
-         <p>Software Developer • CCIS 2nd Year • Kendoka</p>
-         <a href="#contact" class="btn-primary">Contact Me</a>
-      </div>
+    <!-- Background overlay -->
+    <div class="hero-bg"></div>
 
-      <img src="images/profile.png" alt="Profile Picture" class="hero-img">
-   </header>
+    <div class="hero-inner">
+        <div class="hero-content">
+            <h1>Sky Karol Isaac S. Margate</h1>
+            <div class="hero-info-wrapper">
+               <p class="hero-info">Software Developer • CCIS 2nd Year • Kendoka</p>
+               <a href="#contact" class="btn-primary">Contact Me</a>
+            </div>
+        </div>
 
-   <!-- ACHIEVEMENTS SECTION -->
-   <section class="features" id="achievements">
-      <h2>Achievements</h2>
+        <div class="hero-img-wrapper">
+            <img src="images/profile.png" alt="Profile Picture" class="hero-img">
+        </div>
+    </div>
+</header>
 
+
+<!-- About me features and carousel -->
+<section class="features" id="AboutMe">
+  <h2>About Me</h2>
+   <div class="feature-carousel">
       <div class="feature-container">
-
-         <div class="feature-card">
-            <h3>Dean's Lister</h3>
-            <p>Academic excellence award AY 2022–2023.</p>
+         <div class="feature-card"> 
+            <h3>1st Kyu Kendoka</h3>
+            <p>Ranked martial artist with national dojo experience.</p>
+         </div>
+         <div class="feature-card"> 
+            <h3>1st Kyu Kendoka</h3>
+            <p>Ranked martial artist with national dojo experience.</p>
+         </div>
+         <div class="feature-card"> 
+            <h3>1st Kyu Kendoka</h3>
+            <p>Ranked martial artist with national dojo experience.</p>
+         </div>
+         <div class="feature-card feature-main"> 
+            <h3>About Me</h3>
+            <p>Ranked martial artist with national dojo experience. Test Test Test Test. Lorem ipsum additional details about skills, achievements, and hobbies.</p>
          </div>
 
-         <div class="feature-card">
+         <div class="feature-card"> 
             <h3>1st Kyu Kendoka</h3>
             <p>Ranked martial artist with national dojo experience.</p>
          </div>
@@ -58,48 +81,73 @@
             <p>Continued academic progress with advanced load.</p>
          </div>
 
+         <div class="feature-card"> 
+            <h3>Test Here</h3>
+            <p>Ranked martial artist with national dojo experience.</p>
+         </div>
       </div>
-   </section>
+  </div>
+</section>
+
 
    <!-- PROJECTS SECTION -->
    <section class="visual" id="projects">
-      <div class="visual-text">
-         <h2>Projects</h2>
-         <p>Here are some of the projects I have developed throughout my course and personal learning.</p>
+         <div class="visual-text">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I have developed throughout my course and personal learning.</p>
+            <div class="container-Project">
+               <div class="project-Card">
+                     <img src= "" alt="Project Showcase1" class="project-Showcase">
+                     <h3>Alakansya Project</h3>
+                     <a href="https://github.com/CodinSuki/AlakansyaProject.git" target="_blank">GitHub</a>
+               </div>
 
-         <ul class="project-list">
-            <li>Alakansya Project – 
-               <a href="https://github.com/CodinSuki/AlakansyaProject.git" target="_blank">GitHub</a>
-            </li>
+               <div class="project-Card">
+                     <img src= "" alt="Project Showcase2" class="project-Showcase">
+                     <h3>Grammar-Based Tokenizer</h3>
+                     <a href="https://github.com/CodinSuki/Grammar-Based-Tokenizer-Development.git" target="_blank">GitHub</a>
+               </div>
 
-            <li>Grammar-Based Tokenizer – 
-               <a href="https://github.com/CodinSuki/Grammar-Based-Tokenizer-Development.git" target="_blank">GitHub</a>
-            </li>
+               <div class="project-Card">
+                     <img src= "" alt="Project Showcase3" class="project-Showcase"> 
+                     <h3>DKC Inventory Manager</h3>
+                     <a href="https://github.com/CodinSuki/DKC_INVENTORYMANAGER.git" target="_blank">GitHub</a>
+               </div>
 
-            <li>DKC Inventory Manager – 
-               <a href="https://github.com/CodinSuki/DKC_INVENTORYMANAGER.git" target="_blank">GitHub</a>
-            </li>
-
-            <li>Counting Stars – 
-               <a href="https://github.com/CodinSuki/CountingStars.git" target="_blank">GitHub</a>
-            </li>
-         </ul>
+               <div class="project-Card">
+                     <img src= "" alt="Project Showcase4" class="project-Showcase">
+                     <h3>Counting Stars</h3>
+                     <a href="https://github.com/CodinSuki/CountingStars.git" target="_blank">GitHub</a>
+               </div>
+               <div class="project-Card">
+                     <img src= "" alt="Project Showcase5" class="project-Showcase">
+                     <h3>Counting Stars</h3>
+                     <a href="https://github.com/CodinSuki/CountingStars.git" target="_blank">GitHub</a>
+               </div>
+               <div class="project-Card">
+                     <img src= "" alt="Project Showcase6 " class="project-Showcase">
+                     <h3>Counting Stars</h3>
+                     <a href="https://github.com/CodinSuki/CountingStars.git" target="_blank">GitHub</a>
+               </div>
+            </div>
       </div>
-
-      <img src="images/projects.png" class="visual-img" alt="Projects Preview">
    </section>
 
    <!-- SKILLS SECTION -->
    <section class="info" id="skills">
-      <h2>Skills</h2>
-
-      <ul class="info-list">
-         <li><strong>Programming:</strong> Java, C++, Python</li>
-         <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
-         <li><strong>Backend & Databases:</strong> MySQL, PostgreSQL</li>
-         <li><strong>Soft Skills:</strong> Leadership, Team Collaboration</li>
-      </ul>
+      <div class="container">  <!-- This is the container -->
+         <h2>Skills</h2>
+         <ul class="info-list">
+            <li><strong>Programming:</strong> Java, C++, Python</li>
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Backend & Databases:</strong> MySQL, PostgreSQL</li>
+            <li><strong>Soft Skills:</strong> Leadership, Team Collaboration</li>
+         </ul>
+      </div>
    </section>
+
+
+
 
    <!-- GREENSENSE SECTION -->
    <section class="cta" id="greensense">
@@ -120,12 +168,9 @@
       </div>
    </footer>
 
-   <script>
-      document.getElementById("theme-toggle")
-         .addEventListener("click", () => {
-            document.body.classList.toggle("dark");
-         });
-   </script>
+   <script src="script.js"></script>
+   </body>
+
 
 </body>
 
